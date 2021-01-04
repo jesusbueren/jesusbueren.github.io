@@ -1,1 +1,60 @@
-here is something to change
+---
+layout: default
+title: Research
+---
+
+	<h2>Health Probabilities Matched to Health and Retirement Study</h2>
+		
+	<p> In this site, you can find the individual probabilities of belonging to each health group from
+    "Endogenous Health Groups and Heterogenous Dynamics of the Elderly" by Dante Amengual, Jesús Bueren,
+    and Julio A. Crego matched to the Health and Retirement Study (HRS).</p>
+<p> You can download four different stata files: </p>
+<ul>
+  <li>probabilities2.dta [Download]</li>
+  <li>probabilities3.dta [Download]</li>
+  <li>probabilities4.dta [Download]</li>
+</ul>
+
+<p>In each .dta file the unit of observation is an individual. Each individual is uniquely identified into a single
+  ID variable "hhidpn" for each individual in the HRS interviewed between waves 3 and 12. "hhidpn" coincides with the
+  ID variable used in the original HRS files. </p>
+
+<p> We follow the same variable naming convention as in the HRS. The first character indicates that the variable refers
+  to the reference person ("R").The second character indicates the wave to which the variable pertains:
+  "3," "4," "5," "6," "7," "8," "9," "10," "11," or "12". </p>
+
+<p> Variables may contain missing values for two reasons: the Reference person was aged less than 60 in a given wave,
+  or because the Reference person died in a previous wave. </p>
+
+<p> In the paper we show that using the individual health classification with the highest probability outperforms existing
+  measures of health used in the literature at explaining entry in nursing homes, home health care, out-of-pocket medical expenses and mortality. </p>
+
+<p> probabilities2.dta: Contains the probabilities when the number of groups is set to two </p>
+<ul>
+  <li>Rwhealthy is the respondent's probabilities of being healthy</li>
+  <li>Rwimpaired is the respondent's probabilities of being impaired.</li>
+</ul>
+
+<p> probabilities3.dta: Contains the probabilities when the number of groups is set to three </p>
+<ul>
+  <li>Rwhealthy is the respondent's probabilities of being healthy</li>
+  <li>Rwphysical is the respondent's probabilities of being physically frail.</li>
+  <li>Rwimpaired is the respondent's probabilities of being impaired.</li>
+</ul>
+
+<p> probabilities4.dta: Contains the probabilities when the number of groups is set to four </p>
+<ul>
+  <li>Rwhealthy is the respondent's probabilities of being healthy</li>
+  <li>Rwphysical is the respondent's probabilities of being physically frail.</li>
+  <li>Rwmental is the respondent's probabilities of being mentally frail.</li>
+  <li>Rwimpaired is the respondent's probabilities of being impaired.</li>
+</ul>
+
+<p> probabilities5.dta: Contains the probabilities when the number of groups is set to four </p>
+<ul>
+  <li>Rwhealthy is the respondent's probabilities of being healthy</li>
+  <li>Rwmapis the respondent's probabilities of being in group map</li>
+  <li>Rwphysical is the respondent's probabilities of being physically frail.</li>
+  <li>Rwmental is the respondent's probabilities of being mentally frail.</li>
+  <li>Rwimpaired is the respondent's probabilities of being impaired.</li>
+</ul>
