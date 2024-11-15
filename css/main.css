@@ -50,10 +50,10 @@ ul.posts li {
     margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
     body {
         width: calc(100% - 30px);
-        margin: 15px;
+        margin: 10px;
         box-sizing: border-box;
     }
     h1 {
@@ -67,8 +67,3 @@ ul.posts li {
     }
 }
 
-@media only screen and (max-width: 600px) and (orientation: portrait) {
-    body {
-        margin: 10px;
-    }
-}
