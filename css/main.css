@@ -53,10 +53,15 @@ ul.posts li {
 @media only screen and (max-width: 600px) {
     body {
         width: 100%;
-        margin: 20px;
+        margin: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
     }
     .right-image {
         display: none !important;
     }
 }
-
