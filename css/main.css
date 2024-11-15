@@ -52,8 +52,9 @@ ul.posts li {
 
 @media only screen and (max-width: 600px) {
     body {
-        width: 100%;
+        width: calc(100% - 30px);
         margin: 15px;
+        box-sizing: border-box;
     }
     h1 {
         font-size: 2em;
