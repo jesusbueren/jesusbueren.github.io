@@ -49,10 +49,11 @@ ul.posts li {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
+<style>
 @media only screen and (max-width: 600px) {
-    .right-image {
-        width: 50%;
-        max-width: 100px; /* Adjust as needed */
+    img {
+        width: 30%;
+        height: 30%;
     }
 }
+</style>
