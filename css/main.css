@@ -52,7 +52,7 @@ ul.posts li {
 
 @media only screen and (max-width: 600px) {
     .right-image {
-        display:none;
+        display:none !important;
     }
 }
 
