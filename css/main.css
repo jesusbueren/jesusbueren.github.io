@@ -51,8 +51,12 @@ ul.posts li {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        margin: 20px;
+    }
     .right-image {
-        display:none !important;
+        display: none !important;
     }
 }
 
