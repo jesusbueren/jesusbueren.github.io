@@ -41,3 +41,18 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.right-image {
+    float: right;
+    width: 20%;
+    max-width: 150px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .right-image {
+        width: 50%;
+        max-width: 100px; /* Adjust as needed */
+    }
+}
